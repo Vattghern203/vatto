@@ -1,0 +1,31 @@
+{
+  "name": "vatto",
+  "version": "1.0.0",
+  "description": "tutorial de como fazer um bot no YT(Fusion Terror)",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vattghern203/vatto_bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "witcher"
+  ],
+  "author": "Vattghern203",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vattghern203/vatto_bot/issues"
+  },
+  "homepage": "https://github.com/Vattghern203/vatto_bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
