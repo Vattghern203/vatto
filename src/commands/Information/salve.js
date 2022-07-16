@@ -5,13 +5,7 @@ module.exports = {
         .setName('salve')
         .setDescription('Manda um salve.'),
     async execute(interaction) {
-
-        const user = interaction.getUser('target');
-
-        if (user) {
-            await interaction.reply(`Salve, ${user.username}!`)
-        } else {
-             await interaction.reply(`Salve, ${interaction.user.username}!`)
-        }
+        await interaction.reply(`Salve!`) 
+       
     }
 }

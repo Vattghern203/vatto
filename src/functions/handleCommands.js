@@ -14,7 +14,7 @@ module.exports = (client) => {
     client.handleCommands = async (commandFolders, path) => {
         client.commadArray = [];
 
-        for (let folder of commandFolders) {
+        for (const folder of commandFolders) {
             const commandFiles = fs.readdirSync(`${path}/${folder}`).filter(file => file.endsWith('.js'));
 
             for (const file of commandFiles) {
